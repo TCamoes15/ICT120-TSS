@@ -1,0 +1,10 @@
+
+#entete {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#image {
+    background-image: URL("imagevacances.jpg");
+}
