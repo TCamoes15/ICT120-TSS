@@ -9,4 +9,7 @@ txtPhone00.value = '0764361002'
     document.querySelectorAll(".actimg").forEach(img => {
         img.src = document.getElementById('txt'+img.id.substring(3)).value
     });
-    
+
+document.addEventListener('DOMContentLoaded', function(){
+
+})

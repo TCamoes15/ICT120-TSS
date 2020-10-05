@@ -1,10 +1,27 @@
-
-#entete {
-    display: flex;
-    flex-direction: row;
-
+.h1Title {
+    position: relative;
+    bottom: 100px;
+    left: 750px;
 }
 
-#image {
-    background-image: URL("imagevacances.jpg");
+#divMenu {
+    background-image: url('../Voyage/ImageFond.jpg');
+    margin-left: auto;
+    margin-right: auto;
+    height: 253px;
+    width: 1020px;
+}
+
+.hidden {
+    display: none;
+}
+
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items {
+
 }

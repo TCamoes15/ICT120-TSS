@@ -1,20 +1,27 @@
+<?php require_once "store.php"; ?>
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Voyage</title>
-    <link rel="stylesheet" href="voyage.css"/>
+    <title>Voyage d'étude</title>
+    <link rel="stylesheet" href="voyage.css">
+    <script src="js/code.js"></script>
 </head>
 <body>
-<?php require_once "store.php"; ?>
 
-<div id="entete">
-<img id="logo" src="logo.png">
-<h1 id="titre">Voyage d'études</h1>
+<div id="divTitle">
+    <img src="logo.png" alt="Logo du CPNV" height="100">
+    <h1 class="h1Title">Voyage - SI-CMI2a</h1>
 </div>
-<div id="image">
+<div id="divMenu">
+    <div id="divBouttons" class="flexbox">
+        <input type="button" id="cmdPeople" value="Personnes" class="items">
+        <input type="button" id="cmdTransport" value="Transports" class="items">
+        <input type="button" id="cmdLogement" value="Logement" class="items">
+        <input type="button" id="cmdActivité" value="Activité" class="items">
+    </div>
+</div>
 
-</div>
 Cette page rassemble toutes les informations nécessaires pour l'organisation de notre voyage d'étude en troisième année.
 <form method="post">
     Les gens:<br>
