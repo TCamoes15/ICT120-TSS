@@ -15,10 +15,10 @@
 </div>
 <div id="divMenu">
     <div id="divBouttons" class="flexbox">
-        <button onclick="myFunction()" id="cmdPersonnes">Personnes</button>
-        <button onclick="myFunction1()" id="cmdTransport">Transport</button>
-        <button onclick="myFunction2()" id="cmdLogement">Logement</button>
-        <button onclick="myFunction3()" id="cmdActivites">Activités</button>
+        <button id="cmdPersonnes">Personnes</button>
+        <button id="cmdTransport">Transports</button>
+        <button id="cmdLogement">Logements</button>
+        <button id="cmdActivites">Activités</button>
     </div>
 </div>
 
