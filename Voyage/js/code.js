@@ -18,6 +18,21 @@ document.addEventListener('DOMContentLoaded', function(){
     })
 
 
+
+})
+
+textehoteldata02.addEventListener("change", function (){
+
+    var npa = {}
+    var villes = {}
+
+    textehoteldata03.value = "";
+    for (i=0, i<npa.lenght, i++){
+        if (textehoteldata02.value == npa [i]){
+            textehoteldata03.value = villes [i]
+        }
+    }
+
 })
 
 
